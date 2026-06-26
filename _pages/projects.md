@@ -6,7 +6,7 @@ description: Selected research projects in 3D computer vision.
 nav: true
 nav_order: 3
 display_categories: [research]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->

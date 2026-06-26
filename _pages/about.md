@@ -5,7 +5,7 @@ permalink: /
 subtitle: Research Assistant · <a href='https://www.cs.virginia.edu/'>Computer Vision Lab</a>, University of Virginia.
 
 profile:
-  align: left
+  align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
@@ -30,14 +30,3 @@ latest_posts:
 I am a Research Assistant in the [Computer Vision Lab](https://www.cs.virginia.edu/) at the University of Virginia, working under the guidance of Prof. Zezhou Cheng. My research focuses on **3D computer vision**, particularly multi-frame scene understanding, geometry-grounded perception, and transformer-based approaches for large-scale spatial reasoning.
 
 Broadly, I am interested in how visual systems integrate temporal, geometric, and structural information to form coherent 3D representations of complex environments. I aim to advance fundamental methods in visual scene modeling and contribute to applications in ecology, robotics, and large-scale environmental analysis.
-
-## <a href="{{ '/projects/' | relative_url }}" style="color: inherit">projects</a>
-
-<div class="projects">
-  <div class="row row-cols-1 row-cols-md-2">
-    {% assign sorted_projects = site.projects | sort: "importance" %}
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-</div>

@@ -7,13 +7,12 @@ first_name: Jiahui
 middle_name:
 last_name: Zhang
 contact_note: >
-  Best reached via email.
+  See the links above for CV, Google Scholar, and GitHub.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal academic site of Jiahui Zhang — Research Assistant in the Computer Vision Lab at the University of Virginia.
 footer_text: >
-  © Jiahui Zhang &nbsp;·&nbsp;
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=jiahui9923.academic" alt="visitors" style="vertical-align:middle;height:18px"> &nbsp;·&nbsp;
-  Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> + <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
+  © Jiahui Zhang. Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> using the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: jiahui zhang, computer vision, 3D perception, UVA, point cloud, transformer
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🌳 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
