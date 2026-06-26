@@ -25,6 +25,32 @@
 @use "typograms";
 
 /* ===========================================================================
+   Theme color overrides — switch al-folio purple to blue, force light mode
+   =========================================================================== */
+
+:root,
+html[data-theme="dark"] {
+  color-scheme: light;
+
+  /* Accent / link / hover */
+  --global-theme-color: #2563eb; /* tailwind blue-600 */
+  --global-hover-color: #1d4ed8; /* tailwind blue-700, slightly deeper on hover */
+  --global-highlight-color: #1e40af; /* tailwind blue-800 */
+  --global-hover-text-color: #ffffff;
+}
+
+/* Neutralize any system dark-mode auto-apply (enable_darkmode is false,
+   but some browsers may still honor prefers-color-scheme via JS). */
+html[data-theme="dark"] {
+  --global-bg-color: #ffffff;
+  --global-code-bg-color: #f6f8fa;
+  --global-text-color: #111;
+  --global-text-color-light: #6b7280;
+  --global-divider-color: rgba(0, 0, 0, 0.1);
+  --global-card-bg-color: #ffffff;
+}
+
+/* ===========================================================================
    Custom typography overrides — Inter (sans) + Lora (serif headings)
    =========================================================================== */
 
