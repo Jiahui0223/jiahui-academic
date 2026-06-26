@@ -1,0 +1,81 @@
+---
+# Local override of al-folio main.scss
+# Inherits all upstream partials, then applies custom typography.
+---
+@charset "utf-8";
+
+@use "sass:math";
+@use "sass:string";
+
+@use "variables" with (
+  $max-content-width: {{ site.max_width | default: "930px" }}
+);
+
+@use "themes";
+@use "layout";
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+/* ===========================================================================
+   Custom typography overrides — Inter (sans) + Lora (serif headings)
+   =========================================================================== */
+
+body,
+p,
+li,
+.nav-link,
+.profile .more-info,
+input,
+button,
+.contact-icons,
+.contact-note,
+table {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif;
+  font-feature-settings: "ss01", "cv11"; /* Inter stylistic alternates */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.post-title,
+.navbar-brand.title {
+  font-family: "Lora", "Iowan Old Style", "Apple Garamond", Georgia,
+    "Times New Roman", serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.post-title {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.navbar-brand.title {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+code,
+pre,
+.highlight,
+kbd {
+  font-family: "JetBrains Mono", "SF Mono", Menlo, Monaco, Consolas, monospace;
+  font-size: 0.92em;
+}
+
+/* Slightly tighter body line-height for the Inter rendering */
+body {
+  line-height: 1.65;
+}
