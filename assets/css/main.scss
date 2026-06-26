@@ -51,6 +51,29 @@ html[data-theme="dark"] {
 }
 
 /* ===========================================================================
+   Back-to-top button — recolor blue, lift above the fixed footer
+   =========================================================================== */
+
+:root,
+html[data-theme="dark"] {
+  --global-back-to-top-bg-color: rgba(37, 99, 235, 0.85); /* blue-600 @ 85% */
+  --global-back-to-top-text-color: #ffffff;
+}
+
+#back-to-top {
+  bottom: 80px !important; /* clear the fixed footer (default 30px overlapped) */
+  right: 24px !important;
+  background: var(--global-back-to-top-bg-color) !important;
+  color: var(--global-back-to-top-text-color) !important;
+  transition: background 0.15s ease, transform 0.15s ease;
+
+  &:hover {
+    background: rgba(29, 78, 216, 0.95) !important; /* blue-700 on hover */
+    transform: translateY(-2px);
+  }
+}
+
+/* ===========================================================================
    Custom typography overrides — Inter (sans) + Lora (serif headings)
    =========================================================================== */
 
