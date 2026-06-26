@@ -107,6 +107,54 @@ body {
 }
 
 /* ===========================================================================
+   Profile-area social links — sit under the prof_pic on the about page
+   =========================================================================== */
+
+.profile-socials {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-top: 0.25rem;
+  font-size: 0.95rem;
+  text-align: left;
+
+  a {
+    color: var(--global-text-color);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.15s ease;
+
+    i {
+      width: 1.4em;
+      text-align: center;
+      margin-right: 0.5em;
+      color: var(--global-theme-color);
+      font-size: 1.05em;
+    }
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+}
+
+/* When right-aligned profile image, anchor the socials to the right too */
+.profile.float-right .profile-socials {
+  align-items: flex-end;
+
+  a {
+    flex-direction: row-reverse;
+
+    i {
+      margin-right: 0;
+      margin-left: 0.5em;
+    }
+  }
+}
+
+/* ===========================================================================
    Project tag pill badges (used in horizontal project cards)
    =========================================================================== */
 

@@ -9,12 +9,14 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>School of Engineering & Applied Science</p>
-    <p>Department of Computer Science</p>
-    <p>University of Virginia</p>
+    <div class="profile-socials">
+      <a href="https://github.com/Jiahui0223" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+      <a href="https://scholar.google.com/scholar?q=Jiahui+Zhang+Computer+Vision+UVA" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i> Google Scholar</a>
+      <a href="/assets/pdf/Jiahui_Resume_2025_V1.pdf" target="_blank" rel="noopener"><i class="ai ai-cv"></i> CV</a>
+    </div>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # bottom social row disabled — links moved under profile image
 
 announcements:
   enabled: true # includes a list of news items

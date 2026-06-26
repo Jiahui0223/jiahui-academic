@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: peer-reviewed publications and preprints, organized by year.
 nav: true
 nav_order: 2
