@@ -12,7 +12,6 @@ profile:
     <div class="profile-socials">
       <a href="https://github.com/Jiahui0223" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
       <a href="https://scholar.google.com/scholar?q=Jiahui+Zhang+Computer+Vision+UVA" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i> Google Scholar</a>
-      <a href="/assets/pdf/Jiahui_Resume_2025_V1.pdf" target="_blank" rel="noopener"><i class="ai ai-cv"></i> CV</a>
     </div>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"

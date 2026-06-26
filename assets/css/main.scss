@@ -112,44 +112,30 @@ body {
 
 .profile-socials {
   display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-  margin-top: 0.25rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1.1rem;
+  margin-top: 0.5rem;
   font-size: 0.95rem;
-  text-align: left;
 
   a {
     color: var(--global-text-color);
     text-decoration: none;
     display: inline-flex;
     align-items: center;
+    white-space: nowrap;
     transition: color 0.15s ease;
 
     i {
-      width: 1.4em;
-      text-align: center;
-      margin-right: 0.5em;
-      color: var(--global-theme-color);
+      margin-right: 0.4em;
+      color: inherit; /* icon follows link text color */
       font-size: 1.05em;
     }
 
-    &:hover {
+    &:hover,
+    &:hover i {
       color: var(--global-theme-color);
       text-decoration: none;
-    }
-  }
-}
-
-/* When right-aligned profile image, anchor the socials to the right too */
-.profile.float-right .profile-socials {
-  align-items: flex-end;
-
-  a {
-    flex-direction: row-reverse;
-
-    i {
-      margin-right: 0;
-      margin-left: 0.5em;
     }
   }
 }
