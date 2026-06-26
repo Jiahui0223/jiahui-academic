@@ -31,3 +31,5 @@ latest_posts:
 I am a Research Assistant in the [Computer Vision Lab](https://www.cs.virginia.edu/) at the University of Virginia, working under the guidance of Prof. Zezhou Cheng. My research focuses on **3D computer vision**, particularly multi-frame scene understanding, geometry-grounded perception, and transformer-based approaches for large-scale spatial reasoning.
 
 Broadly, I am interested in how visual systems integrate temporal, geometric, and structural information to form coherent 3D representations of complex environments. I aim to advance fundamental methods in visual scene modeling and contribute to applications in ecology, robotics, and large-scale environmental analysis.
+
+**Email:** jiahui9923 [at] gmail [dot] com
