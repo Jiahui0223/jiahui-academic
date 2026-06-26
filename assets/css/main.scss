@@ -248,3 +248,40 @@ body {
   }
 }
 
+/* ===========================================================================
+   CV page — inline PDF viewer
+   =========================================================================== */
+
+.cv-pdf-embed {
+  display: block;
+  width: 100%;
+  height: 85vh;
+  min-height: 500px;
+  border: 1px solid var(--global-divider-color, rgba(0, 0, 0, 0.1));
+  border-radius: 8px;
+  margin-top: 0.5rem;
+}
+
+.cv-download-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.4em 0.9em;
+  border: 1px solid var(--global-divider-color, rgba(0, 0, 0, 0.1));
+  border-radius: 6px;
+  color: var(--global-text-color);
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: border-color 0.15s ease, color 0.15s ease;
+
+  i {
+    color: inherit;
+  }
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+    text-decoration: none;
+  }
+}
+
