@@ -170,3 +170,37 @@ body {
   color: var(--global-theme-color, #b509ac);
 }
 
+/* ===========================================================================
+   Horizontal projects page — narrower, shorter cards
+   =========================================================================== */
+
+/* Constrain one-per-row project cards to a comfortable reading width */
+.projects .row.row-cols-md-1 > .col {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Cap image height so very tall portraits don't make the card huge */
+.projects .row.row-cols-md-1 .card-img {
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Tighten card body padding for a denser look */
+.projects .row.row-cols-md-1 .card-body {
+  padding: 1rem 1.1rem;
+}
+
+.projects .row.row-cols-md-1 .card-title {
+  font-size: 1.15rem;
+  margin-bottom: 0.35rem;
+}
+
+.projects .row.row-cols-md-1 .card-text {
+  font-size: 0.92rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
