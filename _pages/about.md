@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Research Assistant · <a href='https://www.cs.virginia.edu/'>Computer Vision Lab</a>, University of Virginia.
+subtitle: Incoming Ph.D. Student · <a href='https://www.boisestate.edu/coen-cs/'>School of Computing</a>, Boise State University.
 
 profile:
   align: right
@@ -28,8 +28,10 @@ latest_posts:
   limit: 3
 ---
 
-I am a Research Assistant in the [Computer Vision Lab](https://www.cs.virginia.edu/) at the University of Virginia, working under the guidance of Prof. Zezhou Cheng. My research focuses on **3D computer vision**, particularly multi-frame scene understanding, geometry-grounded perception, and transformer-based approaches for large-scale spatial reasoning.
+I am an incoming Ph.D. student at the [School of Computing](https://www.boisestate.edu/coen-cs/), [Boise State University](https://www.boisestate.edu/), starting in Fall 2026 under the supervision of [Prof. Yu Zhang](https://yuzhang03.github.io/) at the [NIUCElab](https://yuzhang03.github.io/lab.html). My research focuses on **3D scene understanding**, **occupancy prediction**, and **embodied AI** — building systems that perceive, represent, and reason about complex 3D environments.
 
-Broadly, I am interested in how visual systems integrate temporal, geometric, and structural information to form coherent 3D representations of complex environments. I aim to advance fundamental methods in visual scene modeling and contribute to applications in ecology, robotics, and large-scale environmental analysis.
+Previously, I was a Research Assistant in the [Computer Vision Lab](https://cvlab.cs.virginia.edu/people.html) at the [University of Virginia](https://www.cs.virginia.edu/), advised by [Prof. Zezhou Cheng](https://www.cs.virginia.edu/~zc3bp/index.html), where I worked on multi-frame 3D perception and transformer-based scene understanding.
+
+Broadly, I am interested in how visual systems integrate temporal, geometric, and structural information to form coherent 3D representations of complex environments. I aim to advance fundamental methods in visual scene modeling and contribute to applications in robotics, ecology, and embodied agents.
 
 **Email:** jiahui9923 [at] gmail [dot] com
