@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Excited to share that I will be joining the [NICE Lab](https://yuzhang03.github.io/lab.html) (Next-generation Computer vision and Embodied intelligence) at [Boise State University](https://www.boisestate.edu/coen-cs/) as a Ph.D. student in Fall 2026, advised by [Prof. Yu Zhang](https://yuzhang03.github.io/).
+Excited to share that I will be joining the [NICE Lab](https://yuzhang03.github.io/lab.html) (Next-generation Computer vision and Embodied intelligence) at [Boise State University](https://www.boisestate.edu/) as a Ph.D. student in Fall 2026, advised by [Prof. Yu Zhang](https://yuzhang03.github.io/).
