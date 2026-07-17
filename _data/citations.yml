@@ -1,0 +1,6 @@
+# Auto-managed by bin/update_scholar_citations.py (see .github/workflows/update-citations.yml).
+# Seeded empty so the workflow has a file to update; the scheduled job fills in `papers`.
+# The old last_updated below forces the next run to fetch instead of skipping.
+metadata:
+  last_updated: '2024-01-01'
+papers: {}

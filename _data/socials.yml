@@ -3,5 +3,4 @@
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 cv_pdf: /assets/pdf/Jiahui_Resume_2025_V1.pdf # path to your CV PDF file
 github_username: Jiahui0223
-# scholar_userid: # add your Google Scholar user ID here when you create a profile;
-#                 # until then the about layout renders a manual Scholar search link.
+scholar_userid: WCjcSQYAAAAJ # Google Scholar user ID (the ?user= value in your profile URL)
