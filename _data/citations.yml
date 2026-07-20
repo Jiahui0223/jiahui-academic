@@ -1,6 +1,7 @@
-# Auto-managed by bin/update_scholar_citations.py (see .github/workflows/update-citations.yml).
-# Seeded empty so the workflow has a file to update; the scheduled job fills in `papers`.
-# The old last_updated below forces the next run to fetch instead of skipping.
 metadata:
-  last_updated: '2024-01-01'
-papers: {}
+  last_updated: '2026-07-20'
+papers:
+  WCjcSQYAAAAJ:u5HHmVD_uO8C:
+    citations: 0
+    title: 'OmniShotCut: Holistic Relational Shot Boundary Detection with Shot-Query Transformer'
+    year: '2026'
