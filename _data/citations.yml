@@ -1,7 +1,7 @@
 metadata:
-  last_updated: '2026-07-20'
+  last_updated: '2026-07-27'
 papers:
   WCjcSQYAAAAJ:u5HHmVD_uO8C:
-    citations: 0
+    citations: 1
     title: 'OmniShotCut: Holistic Relational Shot Boundary Detection with Shot-Query Transformer'
     year: '2026'
